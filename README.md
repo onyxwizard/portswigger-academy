@@ -29,26 +29,26 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
-| Apprentice | 🧱 🧱 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | ✅ Pwned |
-| Apprentice | 🔓 SQL injection vulnerability allowing login bypass | ⬜ Not Pwned |
-| Practitioner | 🗄️ SQL injection attack, querying the database type and version on Oracle | ⬜ Not Pwned |
-| Practitioner | 🗄️ SQL injection attack, querying the database type and version on MySQL and Microsoft | ⬜ Not Pwned |
-| Practitioner | 📁 SQL injection attack, listing the database contents on non-Oracle databases | ⬜ Not Pwned |
-| Practitioner | 📁 SQL injection attack, listing the database contents on Oracle | ⬜ Not Pwned |
-| Practitioner | 🔍 SQL injection UNION attack, determining the number of columns returned by the query | ⬜ Not Pwned |
-| Practitioner | 🔍 SQL injection UNION attack, finding a column containing text | ⬜ Not Pwned |
-| Practitioner | 🕵️ SQL injection UNION attack, retrieving data from other tables | ⬜ Not Pwned |
-| Practitioner | 🧩 SQL injection UNION attack, retrieving multiple values in a single column | ⬜ Not Pwned |
-| Practitioner | 👀 Blind SQL injection with conditional responses | ⬜ Not Pwned |
-| Practitioner | ❌ Blind SQL injection with conditional errors | ⬜ Not Pwned |
-| Practitioner | 📢 Visible error-based SQL injection | ⬜ Not Pwned |
-| Practitioner | ⏳ Blind SQL injection with time delays | ⬜ Not Pwned |
-| Practitioner | 🕒 Blind SQL injection with time delays and information retrieval | ⬜ Not Pwned |
-| Practitioner | 🌐 Blind SQL injection with out-of-band interaction | ⬜ Not Pwned |
-| Practitioner | 📦 Blind SQL injection with out-of-band data exfiltration | ⬜ Not Pwned |
-| Practitioner | 🧼 SQL injection with filter bypass via XML encoding | ⬜ Not Pwned |
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
+| Apprentice | [🧱 🧱 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) | ✅ Pwned |[📝]()|
+| Apprentice | 🔓 SQL injection vulnerability allowing login bypass | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🗄️ SQL injection attack, querying the database type and version on Oracle | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🗄️ SQL injection attack, querying the database type and version on MySQL and Microsoft | ⬜ Not Pwned |[📝]()|
+| Practitioner | 📁 SQL injection attack, listing the database contents on non-Oracle databases | ⬜ Not Pwned |[📝]()|
+| Practitioner | 📁 SQL injection attack, listing the database contents on Oracle | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🔍 SQL injection UNION attack, determining the number of columns returned by the query | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🔍 SQL injection UNION attack, finding a column containing text | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🕵️ SQL injection UNION attack, retrieving data from other tables | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🧩 SQL injection UNION attack, retrieving multiple values in a single column | ⬜ Not Pwned |[📝]()|
+| Practitioner | 👀 Blind SQL injection with conditional responses | ⬜ Not Pwned |[📝]()|
+| Practitioner | ❌ Blind SQL injection with conditional errors | ⬜ Not Pwned |[📝]()|
+| Practitioner | 📢 Visible error-based SQL injection | ⬜ Not Pwned |[📝]()|
+| Practitioner | ⏳ Blind SQL injection with time delays | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🕒 Blind SQL injection with time delays and information retrieval | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🌐 Blind SQL injection with out-of-band interaction | ⬜ Not Pwned |[📝]()|
+| Practitioner | 📦 Blind SQL injection with out-of-band data exfiltration | ⬜ Not Pwned |[📝]()|
+| Practitioner | 🧼 SQL injection with filter bypass via XML encoding | ⬜ Not Pwned |[📝]()|
 
 ## 2️⃣ Cross-site Scripting (XSS) (`30 Labs`) 💬
 **What?** Injecting malicious scripts into trusted websites.
@@ -56,8 +56,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧱 Reflected XSS into HTML context with nothing encoded | ⬜ Not Pwned |
 | Apprentice | 🧱 Stored XSS into HTML context with nothing encoded | ⬜ Not Pwned |
 | Apprentice | 🧩 DOM XSS in document.write sink using source location.search | ⬜ Not Pwned |
@@ -95,8 +95,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧱 CSRF vulnerability with no defenses | ⬜ Not Pwned |
 | Practitioner | 🔁 CSRF where token validation depends on request method | ⬜ Not Pwned |
 | Practitioner | 🔁 CSRF where token validation depends on token being present | ⬜ Not Pwned |
@@ -116,8 +116,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 👁️ Basic clickjacking with CSRF token protection | ⬜ Not Pwned |
 | Apprentice | 🖼️ Clickjacking with form input data prefilled from a URL parameter | ⬜ Not Pwned |
 | Apprentice | 🛡️ Clickjacking with a frame buster script | ⬜ Not Pwned |
@@ -130,8 +130,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🧩 DOM XSS using web messages | ⬜ Not Pwned |
 | Practitioner | 🧩 DOM XSS using web messages and a JavaScript URL | ⬜ Not Pwned |
 | Practitioner | 🧩 DOM XSS using web messages and JSON.parse | ⬜ Not Pwned |
@@ -146,8 +146,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🌍 CORS vulnerability with basic origin reflection | ⬜ Not Pwned |
 | Apprentice | 🌍 CORS vulnerability with trusted null origin | ⬜ Not Pwned |
 | Practitioner | 🌍 CORS vulnerability with trusted insecure protocols | ⬜ Not Pwned |
@@ -161,8 +161,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 📁 Exploiting XXE using external entities to retrieve files | ⬜ Not Pwned |
 | Apprentice | 🔄 Exploiting XXE to perform SSRF attacks | ⬜ Not Pwned |
 | Practitioner | 🌐 Blind XXE with out-of-band interaction | ⬜ Not Pwned |
@@ -181,8 +181,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🌐 Basic SSRF against the local server | ⬜ Not Pwned |
 | Apprentice | 🌐 Basic SSRF against another back-end system | ⬜ Not Pwned |
 | Practitioner | 🌐 Blind SSRF with out-of-band detection | ⬜ Not Pwned |
@@ -199,8 +199,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status|
-|----------|-------|--------|
+| Difficulty | Title | Status| Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🧪 HTTP request smuggling, confirming a CL.TE vulnerability via differential responses| ⬜ Not Pwned |
 | Practitioner | 🧪 HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | ⬜ Not Pwned |
 | Practitioner | 🔁 Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | ⬜ Not Pwned |
@@ -230,8 +230,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 💣 OS command injection, simple case | ⬜ Not Pwned |
 | Practitioner | ⏳ Blind OS command injection with time delays | ⬜ Not Pwned |
 | Practitioner | 📤 Blind OS command injection with output redirection | ⬜ Not Pwned |
@@ -246,8 +246,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🧪 Basic server-side template injection | ⬜ Not Pwned |
 | Practitioner | 🧪 Server-side template injection (code context) | ⬜ Not Pwned |
 | Practitioner | 📚 Server-side template injection using documentation | ⬜ Not Pwned |
@@ -264,8 +264,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 📂 File path traversal, simple case | ⬜ Not Pwned |
 | Practitioner | 🚫 File path traversal, traversal sequences blocked with absolute path bypass | ⬜ Not Pwned |
 | Practitioner | 🧹 File path traversal, traversal sequences stripped non-recursively | ⬜ Not Pwned |
@@ -281,8 +281,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🚪 Unprotected admin functionality | ⬜ Not Pwned |
 | Apprentice | 🔒 Unprotected admin functionality with unpredictable URL | ⬜ Not Pwned |
 | Apprentice | 🧑‍💼 User role controlled by request parameter | ⬜ Not Pwned |
@@ -305,8 +305,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 👤 Username enumeration via different responses | ⬜ Not Pwned |
 | Apprentice | 🔐 2FA simple bypass | ⬜ Not Pwned |
 | Apprentice | 🔄 Password reset broken logic | ⬜ Not Pwned |
@@ -330,8 +330,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 📡 Manipulating WebSocket messages to exploit vulnerabilities | ⬜ Not Pwned |
 | Practitioner | 🔄 Cross-site WebSocket hijacking | ⬜ Not Pwned |
 | Practitioner | 🧪 Manipulating the WebSocket handshake to exploit vulnerabilities | ⬜ Not Pwned |
@@ -344,8 +344,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🧴 Web cache poisoning with an unkeyed header | ⬜ Not Pwned |
 | Practitioner | 🍪 Web cache poisoning with an unkeyed cookie | ⬜ Not Pwned |
 | Practitioner | 🧪 Web cache poisoning with multiple headers | ⬜ Not Pwned |
@@ -368,8 +368,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧱 Modifying serialized objects | ⬜ Not Pwned |
 | Practitioner | 🧩 Modifying serialized data types | ⬜ Not Pwned |
 | Practitioner | 🔁 Using application functionality to exploit insecure deserialization | ⬜ Not Pwned |
@@ -388,8 +388,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🔍 Information disclosure in error messages | ⬜ Not Pwned |
 | Apprentice | 🛠️ Information disclosure on debug page | ⬜ Not Pwned |
 | Apprentice | 📁 Source code disclosure via backup files | ⬜ Not Pwned |
@@ -404,8 +404,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🤖 Excessive trust in client-side controls | ⬜ Not Pwned |
 | Apprentice | 🧱 High-level logic vulnerability | ⬜ Not Pwned |
 | Apprentice | 🔀 Inconsistent security controls | ⬜ Not Pwned |
@@ -426,8 +426,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🔒 Basic password reset poisoning | ⬜ Not Pwned |
 | Apprentice | 🧲 Host header authentication bypass | ⬜ Not Pwned |
 | Practitioner | 🧫 Web cache poisoning via ambiguous requests | ⬜ Not Pwned |
@@ -444,8 +444,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🔐 Authentication bypass via OAuth implicit flow | ⬜ Not Pwned |
 | Practitioner | 🌐 SSRF via OpenID dynamic client registration | ⬜ Not Pwned |
 | Practitioner | 🔗 Forced OAuth profile linking | ⬜ Not Pwned |
@@ -460,8 +460,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧨 Remote code execution via web shell upload | ⬜ Not Pwned |
 | Apprentice | 🔐 Web shell upload via Content-Type restriction bypass | ⬜ Not Pwned |
 | Practitioner | 🛤️ Web shell upload via path traversal | ⬜ Not Pwned |
@@ -477,8 +477,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧱 JWT authentication bypass via unverified signature | ⬜ Not Pwned |
 | Apprentice | 🛡️ JWT authentication bypass via flawed signature verification | ⬜ Not Pwned |
 | Practitioner | 🔑 JWT authentication bypass via weak signing key | ⬜ Not Pwned |
@@ -495,8 +495,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🔍 Discovering vulnerabilities quickly with targeted scanning | ⬜ Not Pwned |
 | Practitioner | 🧹 Scanning non-standard data structures | ⬜ Not Pwned |
 
@@ -507,8 +507,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Practitioner | 🌐 Client-side prototype pollution via browser APIs | ⬜ Not Pwned |
 | Practitioner | 💬 DOM XSS via client-side prototype pollution | ⬜ Not Pwned |
 | Practitioner | 🔄 DOM XSS via an alternative prototype pollution vector | ⬜ Not Pwned |
@@ -528,8 +528,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧾 Accessing private GraphQL posts | ⬜ Not Pwned |
 | Practitioner | 🔐 Accidental exposure of private GraphQL fields | ⬜ Not Pwned |
 | Practitioner | 🔍 Finding a hidden GraphQL endpoint | ⬜ Not Pwned |
@@ -542,8 +542,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🧱 Limit overrun race conditions | ⬜ Not Pwned |
 | Practitioner | 🔄 Bypassing rate limits via race conditions | ⬜ Not Pwned |
 | Practitioner | 🔄 Multi-endpoint race conditions | ⬜ Not Pwned |
@@ -559,8 +559,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🔍 Detecting NoSQL injection | ⬜ Not Pwned |
 | Apprentice | 🔐 Exploiting NoSQL operator injection to bypass authentication | ⬜ Not Pwned |
 | Practitioner | 📁 Exploiting NoSQL injection to extract data | ⬜ Not Pwned |
@@ -574,8 +574,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 📚 Exploiting an API endpoint using documentation | ⬜ Not Pwned |
 | Practitioner | 📥 Exploiting server-side parameter pollution in a query string | ⬜ Not Pwned |
 | Practitioner | 🔍 Finding and exploiting an unused API endpoint | ⬜ Not Pwned |
@@ -590,8 +590,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🤖 Exploiting LLM APIs with excessive agency | ⬜ Not Pwned |
 | Practitioner | 🧠 Exploiting vulnerabilities in LLM APIs | ⬜ Not Pwned |
 | Practitioner | 🧠 Indirect prompt injection | ⬜ Not Pwned |
@@ -605,8 +605,8 @@ Each section includes:
 
 ### 📋 Lab List
 
-| Difficulty | Title | Status |
-|----------|-------|--------|
+| Difficulty | Title | Status | Writeup |
+|----------|-------|--------|:----------------:|
 | Apprentice | 🛰️ Exploiting path mapping for web cache deception | ⬜ Not Pwned |
 | Practitioner | 🔗 Exploiting path delimiters for web cache deception | ⬜ Not Pwned |
 | Practitioner | 🧹 Exploiting origin server normalization for web cache deception | ⬜ Not Pwned |
