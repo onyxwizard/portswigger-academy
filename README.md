@@ -31,24 +31,24 @@ Each section includes:
 
 | Difficulty | Title | Status | Writeup |
 |----------|-------|--------|:----------------:|
-| Apprentice | [🧱 🧱 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) | ✅ Pwned |[📝]()|
-| Apprentice | 🔓 SQL injection vulnerability allowing login bypass | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🗄️ SQL injection attack, querying the database type and version on Oracle | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🗄️ SQL injection attack, querying the database type and version on MySQL and Microsoft | ⬜ Not Pwned |[📝]()|
-| Practitioner | 📁 SQL injection attack, listing the database contents on non-Oracle databases | ⬜ Not Pwned |[📝]()|
-| Practitioner | 📁 SQL injection attack, listing the database contents on Oracle | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🔍 SQL injection UNION attack, determining the number of columns returned by the query | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🔍 SQL injection UNION attack, finding a column containing text | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🕵️ SQL injection UNION attack, retrieving data from other tables | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🧩 SQL injection UNION attack, retrieving multiple values in a single column | ⬜ Not Pwned |[📝]()|
-| Practitioner | 👀 Blind SQL injection with conditional responses | ⬜ Not Pwned |[📝]()|
-| Practitioner | ❌ Blind SQL injection with conditional errors | ⬜ Not Pwned |[📝]()|
-| Practitioner | 📢 Visible error-based SQL injection | ⬜ Not Pwned |[📝]()|
-| Practitioner | ⏳ Blind SQL injection with time delays | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🕒 Blind SQL injection with time delays and information retrieval | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🌐 Blind SQL injection with out-of-band interaction | ⬜ Not Pwned |[📝]()|
-| Practitioner | 📦 Blind SQL injection with out-of-band data exfiltration | ⬜ Not Pwned |[📝]()|
-| Practitioner | 🧼 SQL injection with filter bypass via XML encoding | ⬜ Not Pwned |[📝]()|
+| Apprentice | [🧱 🧱 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data) | ✅ Pwned |[📝](https://github.com/onyxwizard/portswigger-academy/tree/main/SQL%20Injection/1_SQL_injection_vulnerability_in_WHERE_clause_allowing_retrieval_of_hidden_data)|
+| Apprentice | [🔓 SQL injection vulnerability allowing login bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass) | ✅ Pwned |[📝](https://github.com/onyxwizard/portswigger-academy/tree/main/SQL%20Injection/2_SQL_injection_vulnerability_allowing_login_bypass)|
+| Practitioner | [🗄️ SQL injection attack, querying the database type and version on Oracle]() | ✅ Pwned |[📝]()|
+| Practitioner | [🗄️ SQL injection attack, querying the database type and version on MySQL and Microsoft]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [📁 SQL injection attack, listing the database contents on non-Oracle databases]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [📁 SQL injection attack, listing the database contents on Oracle]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [🔍 SQL injection UNION attack, determining the number of columns returned by the query](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns) | ✅ Pwned |[📝](https://github.com/onyxwizard/portswigger-academy/tree/main/SQL%20Injection/3_SQL_injection_UNION_attack__determining_the_number_of_columns_returned_by_the_query)|
+| Practitioner | [🔍 SQL injection UNION attack, finding a column containing text](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text) | ✅ Pwned |[📝](https://github.com/onyxwizard/portswigger-academy/tree/main/SQL%20Injection/4_SQL_injection_UNION_attack__finding_a_column_containing_text)|
+| Practitioner | [🕵️ SQL injection UNION attack, retrieving data from other tables](https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-data-from-other-tables) | ✅ Pwned|[📝](https://github.com/onyxwizard/portswigger-academy/tree/main/SQL%20Injection/5_SQL_injection_UNION_attack__retrieving_data_from_other_tables)|
+| Practitioner | [🧩 SQL injection UNION attack, retrieving multiple values in a single column]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [👀 Blind SQL injection with conditional responses]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [❌ Blind SQL injection with conditional errors]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [📢 Visible error-based SQL injection]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [⏳ Blind SQL injection with time delays]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [🕒 Blind SQL injection with time delays and information retrieval]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [🌐 Blind SQL injection with out-of-band interaction]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [📦 Blind SQL injection with out-of-band data exfiltration]() | ⬜ Not Pwned |[📝]()|
+| Practitioner | [🧼 SQL injection with filter bypass via XML encoding]() | ⬜ Not Pwned |[📝]()|
 
 ## 2️⃣ Cross-site Scripting (XSS) (`30 Labs`) 💬
 **What?** Injecting malicious scripts into trusted websites.
