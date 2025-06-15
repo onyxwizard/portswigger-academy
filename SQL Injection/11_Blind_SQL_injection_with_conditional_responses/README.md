@@ -195,3 +195,4 @@ Once you've extracted the full password (e.g., `WElcOmeT0Th3P@ssw0rd!`), go to `
 ### 🏁 Congratulations!
 
 You’ve successfully exploited a **Blind SQL Injection vulnerability**, extracted a password, and logged in as the **administrator**. 🎉
+<!-- final password : d5a0gp79b648h98cnp7u -->
